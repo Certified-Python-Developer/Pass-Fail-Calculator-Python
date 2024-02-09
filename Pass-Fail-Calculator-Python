@@ -1,0 +1,40 @@
+print("Hi welcome to this program ")
+print("Here you can enter a subject and see how many marks are required to pass the exam")
+
+sa = input("Enter the subject name: ")
+mm = 0
+
+if sa == "Math":
+    print("To pass the Math paper you have to get minimum 33 marks out of 100")
+    mm = int(input("Enter the marks of Math you got to check if you have passed the paper or not: "))
+    if mm >= 33:
+        print("Congratulations! You have passed the Math paper.")
+    else:
+        print("Better luck next time. You have failed.")
+        
+elif sa == "Eng":
+    print("To pass the English paper you have to get minimum 33 marks out of 100")
+    mm = int(input("Enter the marks of English you got to check if you have passed the paper or not: "))
+    if mm >= 33:
+        print("Congratulations! You have passed the English paper.")
+    else:
+        print("Better luck next time. You have failed.")
+        
+elif sa == "Urdu":
+    print("To pass the Urdu paper you have to get minimum 33 marks out of 100")
+    mm = int(input("Enter the marks of Urdu you got to check if you have passed the paper or not: "))
+    if mm >= 33:
+        print("Congratulations! You have passed the Urdu paper.")
+    else:
+        print("Better luck next time. You have failed.")
+        
+elif sa == "His":
+    print("To pass the History paper you have to get minimum 33 marks out of 100")
+    mm = int(input("Enter the marks of History you got to check if you have passed the paper or not: "))
+    if mm >= 33:
+        print("Congratulations! You have passed the History paper.")
+    else:
+        print("Better luck next time. You have failed.")
+        
+else:
+    print("Subject not recognized. Please enter again.")
